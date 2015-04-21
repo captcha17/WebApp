@@ -202,7 +202,7 @@ public class MainController {
 	// }
 	// }
 	// } catch (DalException e) {
-	// // TODO Auto-generated catch block
+//
 	// e.printStackTrace();
 	// }
 	// return false;
