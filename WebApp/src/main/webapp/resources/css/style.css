@@ -1,0 +1,39 @@
+#sidebar, #content, #header {
+	position: absolute;
+}
+
+#sidebar, #content {
+	overflow: auto;
+}
+
+#sidebar {
+	background: #ECF5EE;
+	border-right: 1px solid #231F20;
+	top: 92px;
+	bottom: 0;
+	padding: 13px;
+	width: 250px;
+}
+
+#header {
+	background: #451643;
+}
+
+#content {
+	top: 92px;
+	left: 277px;
+	bottom: 0;
+	right: 0;
+}
+
+.form-search {
+	position: absolute;
+	top: 20;
+	left: 50%;
+}
+
+.show {
+	background: url(../img/delete.jpg);
+	width: 30px;
+	height: 30;
+}

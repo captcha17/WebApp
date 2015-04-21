@@ -1,0 +1,23 @@
+body {
+	background: url(../img/header.png);
+}
+
+#header {
+	height: 180px;
+}
+
+#content #login {
+	position: absolute;
+	right: 47%;
+	top: 34%;
+}
+
+.required {
+	padding-left: 14px;
+	background: url('../img/nook.png') right 2px no-repeat;
+}
+
+.not_required, input[required]:valid+span {
+	padding-left: 16px;
+	background: url('../img/ok.png') right 2px no-repeat;
+}
